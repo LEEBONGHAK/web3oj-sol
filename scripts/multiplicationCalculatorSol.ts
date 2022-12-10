@@ -1,3 +1,4 @@
+// scripts/multiplicationCalculatorSol.ts
 import { ethers } from 'hardhat';
 
 async function calculatorSol() {

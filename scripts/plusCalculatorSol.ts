@@ -1,7 +1,7 @@
 // scripts/plusCalculatorSol.ts
 import { ethers } from 'hardhat';
 
-async function calculaterSol() {
+async function calculatorSol() {
 	const [addr1] = await ethers.getSigners();
 	
 	const PlusCalculatorSol = await ethers.getContractFactory("PlusCalculatorSol");
@@ -16,7 +16,7 @@ async function calculaterSol() {
 }
 
 async function main() {
-	calculaterSol();
+	calculatorSol();
 }
 
 main().catch((err) => {
