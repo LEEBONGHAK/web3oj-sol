@@ -1,13 +1,14 @@
 # web3oj-sol
 
 web3oj URI: https://app.web3oj.com  
-
-Try running some of the following tasks:  
+  
+  
+## 문제 답안 제출
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat --network goerli run scripts/[file]
+
+or
+
+./submission.sh scripts/[file]
 ```
