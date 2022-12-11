@@ -1,7 +1,7 @@
 // scripts/ERC-20/erc20InitSol.ts
 import { ethers } from 'hardhat';
 
-async function erc20InitSol() {
+async function erc20Init() {
 	const [addr1] = await ethers.getSigners();
 
 	const ERC20InitSol = await ethers.getContractFactory("ERC20InitSol");
@@ -16,7 +16,7 @@ async function erc20InitSol() {
 }
 
 async function main() {
-	erc20InitSol();
+	erc20Init();
 }
 
 main().catch((err) => {
