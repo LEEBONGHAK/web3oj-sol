@@ -1,4 +1,4 @@
-// scripts/erc20InitSol.ts
+// scripts/ERC-20/erc20InitSol.ts
 import { ethers } from 'hardhat';
 
 async function erc20InitSol() {

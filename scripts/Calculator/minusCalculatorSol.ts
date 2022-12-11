@@ -1,4 +1,4 @@
-// scripts/minusCalculatorSol.ts
+// scripts/Calculator/minusCalculatorSol.ts
 import { ethers } from 'hardhat';
 
 async function calculatorSol() {
